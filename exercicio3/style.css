@@ -1,9 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-main{
+main {
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -12,7 +12,7 @@ main{
   background-color: orange;
 }
 
-section{
+section {
   height: 100px;
   background-color: steelblue;
   color: white;
@@ -22,17 +22,27 @@ section{
   flex-basis: 80px;
 }
 
-#section-1{
+#section-1 {
+  flex-grow: 0;
+  order: 2;
 }
 
-#section-2{
+#section-2 {
+  flex-grow: 2;
+  order: 3;
 }
 
-#section-3{
+#section-3 {
+  flex-grow: 3;
+  order: 4;
 }
 
-#section-4{
+#section-4 {
+  flex-basis: 200px;
+  order: 5;
 }
 
-#section-5{
+#section-5 {
+  flex-grow: 0;
+  order: 1;
 }
